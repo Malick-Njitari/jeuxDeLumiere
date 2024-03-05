@@ -1,0 +1,26 @@
+.circle{
+    width:auto;
+    height:500px;
+    background-color: black;
+border-radius: 50%;
+/* Ici pour assigner notr KeyFrames a une animation*/
+
+animation-name: multiCouleurCircle;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+}
+@keyframes multiCouleurCircle {
+
+16.6%{background-color: blue;}
+33.2%{background-color: rgb(28, 238, 9);}
+49.8%{background-color: rgba(255, 0, 140, 0.39);}
+66.4%{background-color: rgb(255, 0, 0);}
+83%{background-color: rgb(187, 144, 4);}
+49.8%{background-color: rgba(152, 9, 247, 0.349);}
+66.4%{background-color: rgb(166, 167, 168);}
+83%{background-color: rgb(192, 225, 22);}
+100%{background-color: rgb(204, 0, 255);}
+
+    
+}
